@@ -16,17 +16,17 @@ This repository provides a **Multilingual PDF Retrieval-Augmented Generation (RA
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Shorya-Dixit/Multilingual_PDF_RAG_System.git
 cd your-repo-name
 ```
 
 ### Step 2: Create a virtual environment
 
-We recommend using a virtual environment to manage dependencies.
+I recommend using a virtual environment to manage dependencies.
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+venv\Scripts\activate
 ```
 
 ### Step 3: Install dependencies
@@ -58,14 +58,14 @@ Tesseract must be installed on your system.
 Set the `pdf_dir` variable in `main.py` to the path of the folder containing your PDFs:
 
 ```python
-pdf_dir = "path/to/your/pdf/directory"
+pdf_dir = " "
 ```
 
 ### Step 6: Log in via Hugging Face CLI
 
 Once you have your Hugging Face token, you can authenticate using the Hugging Face CLI:
 
-1. Install the `huggingface_hub` if you haven't done so already:
+1. Install the `huggingface_hub`:
 
 ```bash
 pip install huggingface_hub
@@ -150,10 +150,6 @@ You can modify these in the `main_pipeline` function in `main.py`.
 ## Contributing
 
 Contributions are welcome! Feel free to fork this repository and submit pull requests.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 

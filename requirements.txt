@@ -1,0 +1,16 @@
+pymupdf
+faiss-cpu
+numpy
+langchain
+pytesseract
+Pillow
+rank-bm25
+sentence-transformers
+transformers
+torch
+psutil
+scikit-learn
+langchain-community
+huggingface_hub
+
+
